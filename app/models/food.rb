@@ -1,3 +1,4 @@
 class Food < ApplicationRecord
     validates :name, presence: true
-  end
+    validates :description, presence: true
+end
