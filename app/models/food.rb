@@ -1,2 +1,3 @@
 class Food < ApplicationRecord
-end
+    validates :name, presence: true
+  end
